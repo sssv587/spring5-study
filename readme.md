@@ -43,3 +43,5 @@ xmlns:p="http://www.springframework.org/schema/p"
     <value><![CDATA[<<南京>>]]></value>
 </property>
 ```
+,外部Bean注入bean2.xml,案例演示dao包+service包
+,内部Bean注入bean3.xml,案例演示bean.Dept+bean.Emp,bean4.xml对Dept赋值时必须在Emp中生成getDept方法,同时演示了级联赋值
