@@ -1,5 +1,7 @@
 package com.futurebytedance.spring5.collectiontype;
 
+import java.util.List;
+
 /**
  * @author yuhang.sun
  * @version 1.0
@@ -7,4 +9,13 @@ package com.futurebytedance.spring5.collectiontype;
  * @Description
  */
 public class Book {
+    private List<String> list;
+
+    public void setList(List<String> list) {
+        this.list = list;
+    }
+
+    public void test() {
+        System.out.println(list);
+    }
 }
