@@ -8,6 +8,9 @@
       <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/spring-expression-5.2.6.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.2.6.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.2.6.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
