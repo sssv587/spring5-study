@@ -68,3 +68,7 @@ Course+Stu+bean1.xml封装了集合的注入方式
 <!--配置后置处理器-->
 <bean id="myBeanPost" class="com.futurebytedance.spring5.bean.MyBeanPost"></bean>
 ```
+
+spring5-demo3
+注解,bean1.xml+UserService实现Bean管理注解方式(创建对象)
+,

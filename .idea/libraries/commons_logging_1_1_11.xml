@@ -1,7 +1,8 @@
 <component name="libraryTable">
-  <library name="commons-logging-1.1.1">
+  <library name="commons-logging-1.1.11">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/druid-1.1.9.jar!/" />
       <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/spring-beans-5.2.6.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/spring-context-5.2.6.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/spring5-demo2/lib/spring-core-5.2.6.RELEASE.jar!/" />
@@ -9,8 +10,6 @@
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.2.6.RELEASE-sources.jar!/" />
-      <root url="jar://$USER_HOME$/.ideaLibSources/spring-beans-5.2.6.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/" />
     </SOURCES>
