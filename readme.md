@@ -71,4 +71,7 @@ Course+Stu+bean1.xml封装了集合的注入方式
 
 spring5-demo3
 注解,bean1.xml+UserService实现Bean管理注解方式(创建对象)
-,
+
+spring5-demo4
+AOP,JDKProxy.java延迟了使用JDK自带的动态代理方式
+aopanno下的三个文件+bean1.xml演示了使用半注解形式进行动态代理
