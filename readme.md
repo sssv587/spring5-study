@@ -75,3 +75,8 @@ spring5-demo3
 spring5-demo4
 AOP,JDKProxy.java延迟了使用JDK自带的动态代理方式
 aopanno下的三个文件+bean1.xml演示了使用半注解形式进行动态代理
+aopxml下的文件+bean2.xml演示了使用xml配置的方式进行动态代理
+config包下的类可以使用完全注解开发进行动态代理
+
+spring5-demo5
+项目下完成了(批量)增、删、改以及查询操作
