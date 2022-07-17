@@ -7,6 +7,8 @@
     <SOURCES>
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/" />
       <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-5.2.6.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-core-5.2.6.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-core-5.2.6.RELEASE-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/spring5-txdemo1/lib" recursive="false" />
   </library>
