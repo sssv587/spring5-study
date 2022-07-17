@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring5-study.iml" filepath="$PROJECT_DIR$/spring5-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring5-txdemo1/spring5-txdemo1.iml" filepath="$PROJECT_DIR$/spring5-txdemo1/spring5-txdemo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/webflux-demo1/webflux-demo1.iml" filepath="$PROJECT_DIR$/webflux-demo1/webflux-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" filepath="$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" />
     </modules>
   </component>
 </project>
