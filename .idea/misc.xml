@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/demoreactor/pom.xml" />
+        <option value="$PROJECT_DIR$/webflux-demo1/pom.xml" />
       </list>
     </option>
   </component>
