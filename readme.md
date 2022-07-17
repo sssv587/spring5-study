@@ -80,3 +80,5 @@ config包下的类可以使用完全注解开发进行动态代理
 
 spring5-demo5
 项目下完成了(批量)增、删、改以及查询操作
+事务XML形式-bean2.xml
+事务Annotation形式-config包中的类
