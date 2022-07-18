@@ -13,13 +13,10 @@ import static org.springframework.web.reactive.function.BodyInserters.fromObject
 /**
  * @author yuhang.sun
  * @version 1.0
- * @date 2022/7/18 - 0:27
+ * @date 2022/7/18 - 23:12
  * @Description
  */
-
-
 public class UserHandler {
-
     private final UserService userService;
 
     public UserHandler(UserService userService) {
@@ -29,7 +26,7 @@ public class UserHandler {
     //根据id查询
     public Mono<ServerResponse> getUserById(ServerRequest request) {
         //获取id值
-        int userId = Integer.valueOf(request.pathVariable("id"));
+        int userId = Integer.parseInt(request.pathVariable("id"));
         //空值处理
         Mono<ServerResponse> notFound = ServerResponse.notFound().build();
 
@@ -37,7 +34,9 @@ public class UserHandler {
         Mono<User> userMono = this.userService.getUserById(userId);
         //把userMono进行转换返回
         //使用Reactor操作符flatMap
-        return userMono.flatMap(person -> ServerResponse.ok().contentType(MediaType.APPLICATION_JSON)
+        return
+                userMono
+                        .flatMap(person -> ServerResponse.ok().contentType(MediaType.APPLICATION_JSON)
                                 .body(fromObject(person)))
                         .switchIfEmpty(notFound);
     }
@@ -55,4 +54,5 @@ public class UserHandler {
         Mono<User> userMono = request.bodyToMono(User.class);
         return ServerResponse.ok().build(this.userService.saveUserInfo(userMono));
     }
+
 }
